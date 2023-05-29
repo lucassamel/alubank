@@ -45,11 +45,11 @@ class AccountPoints extends StatelessWidget {
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                   ),
-                  _ObjectivePoints(
+                  _AccountPoints(
                     color: ThemeColors.recentActivity['delivery'],
                     text: 'Entrga gratis: 15000pts',
                   ),
-                  _ObjectivePoints(
+                  _AccountPoints(
                     color: ThemeColors.recentActivity['streaming'],
                     text: '1 mês de streaming: 30000pts',
                   ),
@@ -61,11 +61,11 @@ class AccountPoints extends StatelessWidget {
   }
 }
 
-class _ObjectivePoints extends StatelessWidget {
+class _AccountPoints extends StatelessWidget {
   final Color? color;
   final String text;
 
-  const _ObjectivePoints({required this.color, required this.text});
+  const _AccountPoints({required this.color, required this.text});
 
   @override
   Widget build(BuildContext context) {
