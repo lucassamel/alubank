@@ -7,7 +7,7 @@ class AccountActions extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(16.0),
+      padding: const EdgeInsets.all(16.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -22,8 +22,8 @@ class AccountActions extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               InkWell(
-                onTap: (){},
-                child: BoxCard(
+                onTap: () {},
+                child: const BoxCard(
                   boxContent: _AccountActionsContent(
                     icon: Icon(Icons.account_balance_wallet),
                     text: 'Depositar',
@@ -31,8 +31,8 @@ class AccountActions extends StatelessWidget {
                 ),
               ),
               InkWell(
-                onTap: (){},
-                child: BoxCard(
+                onTap: () {},
+                child: const BoxCard(
                   boxContent: _AccountActionsContent(
                     icon: Icon(Icons.cached),
                     text: 'Transferir',
@@ -40,8 +40,8 @@ class AccountActions extends StatelessWidget {
                 ),
               ),
               InkWell(
-                onTap: (){},
-                child: BoxCard(
+                onTap: () {},
+                child: const BoxCard(
                   boxContent: _AccountActionsContent(
                     icon: Icon(Icons.center_focus_strong),
                     text: 'Ler',
@@ -66,7 +66,7 @@ class _AccountActionsContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: 72,
       child: Column(
         children: [
