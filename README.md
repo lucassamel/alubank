@@ -2,6 +2,8 @@
 
 Alubank project
 
+![screenshot](https://photos.app.goo.gl/iXKBn6NfWWDd5NXY6)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
