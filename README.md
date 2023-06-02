@@ -2,7 +2,7 @@
 
 Alubank project
 
-![screenshot](https://prnt.sc/IFEAZME_uWka)
+![screenshot](assets/screenshot/Screenshot_20230601_213819.png)
 
 ## Getting Started
 
